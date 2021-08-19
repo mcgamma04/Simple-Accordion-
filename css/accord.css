@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.help{
+    width:100%;
+    padding: 20px;
+    border:none;
+    outline:none;
+    color:rgb(94, 87, 87);
+    cursor:pointer;
+    background-color: #eee;
+    transition: 0.5s;   
+}
+.rich, .box:hover{
+background :#ccc;
+}
+.box{
+    padding-top:0;
+    padding-bottom: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fff;
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
